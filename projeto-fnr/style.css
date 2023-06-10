@@ -1,0 +1,21 @@
+body,
+html {
+  height: 100%;
+  background: linear-gradient(to bottom, #4083be, #9cbfdd, #1d3b55);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-div {
+  width: 400px;
+  padding: 20px;
+}
+
+.bg-info {
+  background-color: #1d3b55 !important;
+}
