@@ -39,5 +39,28 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        // Import the functions you need from the SDKs you need
+          import { initializeApp } from "firebase/app";
+          import { getAnalytics } from "firebase/analytics";
+          // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          const firebaseConfig = {
+            apiKey: "AIzaSyAfPpH4hyrnOdfdzPFAHZ8-n8dzoHGyClk",
+            authDomain: "projeto-devops-1aeaa.firebaseapp.com",
+            projectId: "projeto-devops-1aeaa",
+            storageBucket: "projeto-devops-1aeaa.appspot.com",
+            messagingSenderId: "820771333954",
+            appId: "1:820771333954:web:878ea3d6a2204d4b210adb",
+            measurementId: "G-G5NBF097J6"
+          };
+
+          // Initialize Firebase
+          const app = initializeApp(firebaseConfig);
+          const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário com Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="border p-5 bg-light">
+        <h1>Formulário</h1>
+        <div class="form-group">
+          <label for="cep">CEP:</label>
+          <input type="text" class="form-control" id="cep" name="cep" />
+        </div>
+        <div class="form-group">
+          <label for="rua">Rua:</label>
+          <input type="text" class="form-control" id="rua" name="rua" />
+        </div>
+        <div class="form-group">
+          <label for="bairro">Bairro:</label>
+          <input type="text" class="form-control" id="bairro" name="bairro" />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="cidade">Cidade:</label>
+            <select class="form-control" id="cidade" name="cidade">
+              <option value="">Selecione</option>
+              <option value="cidade1">Cidade 1</option>
+              <option value="cidade2">Cidade 2</option>
+              <option value="cidade3">Cidade 3</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="estado">Estado:</label>
+            <select class="form-control" id="estado" name="estado">
+              <option value="">Selecione</option>
+              <option value="estado1">Estado 1</option>
+              <option value="estado2">Estado 2</option>
+              <option value="estado3">Estado 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="numero">Número:</label>
+            <input type="text" class="form-control" id="numero" name="numero" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="complemento">Complemento:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="complemento"
+              name="complemento"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
